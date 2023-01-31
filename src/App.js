@@ -4,7 +4,7 @@ import products from './data/products.json';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <FilterableProductTable products={products}/>
     </div>
   );
